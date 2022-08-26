@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,500;1,300&family=Lora:ital,wght@1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Poppins:wght@200&family=Roboto:wght@100;300;400;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Varela&display=swap');
+
+body {
+    font-family: 'Roboto', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover{
+    color: #1eb2a6;
+}
+
+@media (max-width: 768px){
+    .link:hover{
+     color: #fff;
+    }
+ }
+
+@media screen and (max-width: 992px) {
+    html{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html{
+        font-size: 70%;
+    }
+}
